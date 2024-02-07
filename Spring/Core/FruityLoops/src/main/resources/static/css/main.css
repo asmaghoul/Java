@@ -1,0 +1,18 @@
+table.table {
+    width: 50%; /* Adjust width as needed */
+    border-collapse: collapse; /* Collapse border spacing */
+    border: 8px solid pink; /* Set thick pink border to exterior */
+}
+
+/* Style table header */
+table.table th {
+    padding: 8px; /* Add padding to header cells */
+    text-align: left; /* Align text to the left */
+    border-right: none; /* Remove right border for header cells */
+}
+
+/* Style table data */
+table.table td {
+    padding: 8px; /* Add padding to data cells */
+    border-right: none; /* Remove right border for data cells */
+}
