@@ -1,0 +1,65 @@
+ body {
+            background-image: url('/images/travel.jpg');
+            /* Adjust background properties as needed */
+            background-size: cover; /* Cover the entire background */
+            background-repeat: no-repeat; /* Prevent repeating the background image */
+       font-family: Arial, sans-serif; /* Change font family as needed */
+    color: #333; /* Change text color */
+}
+
+.container {
+    margin-top: 50px; /* Adjust top margin as needed */
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+   /* background-color: #fff; /* Table background color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Table box shadow */
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    vertical-align: top;
+    border-top: 1px solid #ddd; /* Table border color */
+}
+
+/*.table th {
+    background-color: #f5f5f5; /* Table header background color 
+}*/
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Form input border color */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Button background color */
+    border: none;
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Button hover background color */
+}
+
+.edit{
+  display: flex;
+  flex-direction:row;
+  gap: 200px;
+  padding: 5px;
+}
